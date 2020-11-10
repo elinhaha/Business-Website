@@ -36,3 +36,66 @@ nav {
 .text3 {
   grid-row: 5;
 }
+
+.fotograf1 {
+  grid-row: 4;
+  grid-column: 1;
+}
+
+.fotograf2 {
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.fotograf3 {
+  grid-row: 4;
+  grid-column: 3;
+}
+
+.fotograf4 {
+  grid-row: 4;
+  grid-column: 4;
+}
+.row {
+  grid-row: 4;
+}
+.column {
+  float: left;
+  width: 80%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+}
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: lightgray;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border: white;
+}
+
+.button:hover {
+  background-color: #555;
+}
