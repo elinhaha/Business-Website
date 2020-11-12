@@ -1,0 +1,42 @@
+.back-button {
+  position: fixed;
+  top: 32px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.row3 {
+  display: flex;
+  padding: 0 4px;
+}
+
+.column3 {
+  flex: 25%;
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column3 img {
+  width: 100%;
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
