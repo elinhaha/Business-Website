@@ -24,7 +24,7 @@ nav {
   grid-column: 1 / 5;
   display: flex;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: #b982af;
   padding: 20px;
   border-style: solid;
 }
@@ -35,6 +35,16 @@ nav a {
   padding: 15px 17px;
   font-size: 17px;
   text-decoration: none;
+}
+.button1 {
+  background-color: #deb6d1;
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button1:hover {
+  background-color: #ffabab;
 }
 
 h3 {
