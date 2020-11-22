@@ -21,7 +21,14 @@ nav {
   padding: 20px;
   border-style: solid;
 }
-
+nav a {
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+  padding: 15px 17px;
+  font-size: 17px;
+  text-decoration: none;
+}
 .text1 {
   grid-column: 2/4;
   margin: 20px;
