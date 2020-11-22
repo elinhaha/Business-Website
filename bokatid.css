@@ -1,0 +1,64 @@
+body {
+  display: grid;
+  margin: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 10;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  grid-column: 1/ 5;
+  text-align: center;
+  align-items: flex-start;
+}
+
+nav {
+  grid-row: 2;
+  grid-column: 1 / 5;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 20px;
+  border-style: solid;
+}
+
+h3 {
+  margin: 20px;
+}
+p {
+  grid-column: 1/3;
+  grid-row: 4;
+  margin: 20px;
+}
+
+.informationleia {
+  grid-row: 5;
+  grid-column: 1;
+  border-style: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+.informationsophia {
+  grid-row: 5;
+  grid-column: 2;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+}
+
+.informationdaniel {
+  grid-row: 5;
+  grid-column: 3;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+}
+
+.informationsusanna {
+  grid-row: 5;
+  grid-column: 4;
+  padding: 20px;
+  margin: 20px;
+  border-style: solid;
+}
